@@ -18,12 +18,12 @@ class AlumniSeeder extends Seeder
                 'activitati' => '- Activitati: Jobshop 2021
 - Coordonator: JobShop 2022',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Catalin Butacu (Cutulin)',
+                'nume' => 'Catalin Butacu',
                 'generatie' => 'Toamnă 2020',
                 'anul_alumnizarii' => '2024',
                 'activitati' => '- IT: BTW 2021
@@ -32,7 +32,7 @@ class AlumniSeeder extends Seeder
 - MO: JobShop 2023
 - Coordonator departament IT: Managment + Extra Resp 2023',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -44,7 +44,7 @@ class AlumniSeeder extends Seeder
 - Coordonator departament FR: Managment + Extra Resp 2022
 - HR pax: LTSP Evaluation SIM 2023',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -61,7 +61,7 @@ class AlumniSeeder extends Seeder
 - IT: EBEC 2022
 - Coordonator: Prove It 2023',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -91,7 +91,7 @@ class AlumniSeeder extends Seeder
 - Coordonator departament PR: Managment + Extra Resp 2023
 - IT: Recrutari Autumn 2023',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -108,7 +108,7 @@ class AlumniSeeder extends Seeder
 - Presedinte: Managment + Extra Resp 2022
 - Mentor Marketing: Managment + Extra Resp 2023',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -121,7 +121,7 @@ class AlumniSeeder extends Seeder
 - Secretar General: Managment + Extra Resp
 - Interviuri, Training & BECaS: Recrutari Autumn 2022',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -134,7 +134,7 @@ class AlumniSeeder extends Seeder
 - TOPICURI: Prove it 2023
 - Coordonator: RoJAM 2023',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -147,7 +147,7 @@ class AlumniSeeder extends Seeder
 - Coordonator: LEoE 2021
 - FR: EBEC 2022',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -160,7 +160,7 @@ class AlumniSeeder extends Seeder
 - IT : EBEC 2020
 - Secretar: Managment + Extra Resp 2021',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -173,7 +173,7 @@ class AlumniSeeder extends Seeder
 - Masa: Summer 2022
 - Coordonator: Aniversare Interna 2023',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -187,7 +187,7 @@ class AlumniSeeder extends Seeder
 - Președinte: Managment + Extra Resp
 - Secretar: Managment + Extra Resp',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -201,7 +201,7 @@ class AlumniSeeder extends Seeder
 - Coordonator HR: Managment + Extra Resp 2021
 - Coordonator: Recrutari Spring 2022',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -213,7 +213,7 @@ class AlumniSeeder extends Seeder
 - BEST Talk: BTW 2020
 - IT: Recrutari Autumn 2020',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -225,7 +225,7 @@ class AlumniSeeder extends Seeder
 - Interviuri, Training&BECaS: Recrutari Autumn 2020
 - FR cpy: Prove it 2021',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -237,7 +237,7 @@ class AlumniSeeder extends Seeder
 - Coordonator: Prove it 2022
 - Design: Jobshop 2021',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -261,7 +261,7 @@ class AlumniSeeder extends Seeder
 - Coordonator: Gala 2021
 - PR: EBEC 2020',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -290,7 +290,7 @@ class AlumniSeeder extends Seeder
 - Coordonator: Recrutari Autumn 2021
 - HR: Jobshop 2021',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -330,7 +330,7 @@ class AlumniSeeder extends Seeder
 - Markeding: EBEC 2020
 - Responsabil Digital Marketing: Managment + Extra Resp',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -343,7 +343,7 @@ class AlumniSeeder extends Seeder
 - Coordonator: Recrutari  Autumn
 - Coordonator: Recrutari  Spring',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -356,7 +356,7 @@ class AlumniSeeder extends Seeder
 - Topicuri: ProveIt 2021
 - Social: RoJam 2019',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -369,7 +369,7 @@ class AlumniSeeder extends Seeder
 - MKT: EBEC 2021
 - Coordonator WG Media: Managment + Extra Resp',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -382,7 +382,7 @@ class AlumniSeeder extends Seeder
 - HR: RoJAM 2019
 - Coordonator: Prove it 2021 ',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -395,7 +395,7 @@ class AlumniSeeder extends Seeder
 - Media: Jobshop 2020
 - Coordonator WG Best Events: Managment + Extra Resp',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -405,7 +405,7 @@ class AlumniSeeder extends Seeder
                 'anul_alumnizarii' => '2021',
                 'activitati' => '- Coordonator: EBEC RRM 2018 Regional',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -419,7 +419,7 @@ class AlumniSeeder extends Seeder
 - FR: BTW 2019
 - HR: Jobshop 2020',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -431,7 +431,7 @@ class AlumniSeeder extends Seeder
 - IT: Recrutari 2018 Autumn
 - Secretar FR: Managment + Extra Resp',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -444,7 +444,7 @@ class AlumniSeeder extends Seeder
 - HR: BTW 2020
 - Coordonator: EBEC 2019',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -472,7 +472,7 @@ class AlumniSeeder extends Seeder
 - FR companii: 2018
 - Trezorier: Managment + Extra Resp',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -485,7 +485,7 @@ class AlumniSeeder extends Seeder
 - PR: Recrutari Autumn 2017
 - FR: EBEC RRM 2018 Regional',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -509,7 +509,7 @@ class AlumniSeeder extends Seeder
 - HR: JobShop
 - MO și Academic: Summer 2019',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -522,7 +522,7 @@ class AlumniSeeder extends Seeder
 - Coordonator: Recrutari 2018 Autumn
 - Coordonator: Recrutari 2019 Spring',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -534,7 +534,7 @@ class AlumniSeeder extends Seeder
 - PR: Summer 2018
 - VP PR: Managment + Extra Resp',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -544,7 +544,7 @@ class AlumniSeeder extends Seeder
                 'anul_alumnizarii' => '2020',
                 'activitati' => '- Secretar general: Managment + Extra Resp',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -555,7 +555,7 @@ class AlumniSeeder extends Seeder
                 'activitati' => '- MO Local:  EBEC RRM 2018 Local
 - Coordonator WG BEST Events: Managment + Extra Resp',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -567,7 +567,7 @@ class AlumniSeeder extends Seeder
 - HR: EBEC 2017
 - Coordonator: BTW 2019',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -578,7 +578,7 @@ class AlumniSeeder extends Seeder
                 'activitati' => '- Design: JobShop 2017
 - Coordonator: Motivational Weekend 2019',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
@@ -609,12 +609,12 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Catalin Crainiceanu (Clementin)',
+                'nume' => 'Catalin Crainiceanu',
                 'generatie' => 'Primăvară 2016',
                 'anul_alumnizarii' => '2020',
                 'activitati' => '- Mentor Design: Managment + Extra Resp',
                 'testimonial' => null,
-                'acord_publicare' => false,
+                'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
