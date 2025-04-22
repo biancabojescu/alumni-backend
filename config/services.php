@@ -31,4 +31,15 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'clickup' => [
+        'client_id' => env('CLICKUP_CLIENT_ID'),
+        'client_secret' => env('CLICKUP_CLIENT_SECRET'),
+        'redirect_uri' => env('CLICKUP_REDIRECT_URI'),
+    ],
+
+    'jira' => [
+        'client_id' => env('JIRA_CLIENT_ID'),
+        'client_secret' => env('JIRA_CLIENT_SECRET'),
+        'redirect_uri' => env('JIRA_REDIRECT_URI'),
+    ]
 ];

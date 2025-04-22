@@ -11,7 +11,7 @@ class GetRequest extends FormRequest {
 
     public function rules() {
         return [
-            'an' => 'nullable|string',
+            'anul_alumnizarii' => 'nullable|string',
             'page' => ['nullable', 'integer'],
             'per_page' => ['nullable', 'integer'],
         ];
