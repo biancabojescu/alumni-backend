@@ -14,7 +14,7 @@ class AlumnService {
     }
 
     public function getAlumni(array $data): Collection|LengthAwarePaginator {
-        $an = $data['anul_alumizarii'] ?? null;
+        $an = $data['anul_alumnizarii'] ?? null;
         $page = $data['page'] ?? null;
         $per_page =$data['per_page'] ?? null;
 

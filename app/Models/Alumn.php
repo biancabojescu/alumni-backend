@@ -19,7 +19,7 @@ class Alumn extends Model {
         return $query->where('acord_publicare', '=', $acord_publicare);
     }
 
-    public function scopeFilterByAnAlumnizare($query, $anul_alumizarii) {
-        return $query->where('anul_alumizarii', '=', $anul_alumizarii);
+    public function scopeFilterByAnAlumnizare($query, $anul_alumnizarii) {
+        return $query->where('anul_alumnizarii', '=', $anul_alumnizarii);
     }
 }

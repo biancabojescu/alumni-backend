@@ -12,7 +12,7 @@ class AlumnResource extends JsonResource {
             'id' => $this->id,
             'nume' =>$this->nume,
             'generatie' => $this->generatie,
-            'anul_alumnizarii' =>$this->anul_alumizarii,
+            'anul_alumnizarii' =>$this->anul_alumnizarii,
             'activitati' => $this->activitati,
             'testimonial' => $this->testimonial,
             'acord_puublicare'=> $this->acord_publicare,
