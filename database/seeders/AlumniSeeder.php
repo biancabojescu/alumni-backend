@@ -12,10 +12,56 @@ class AlumniSeeder extends Seeder
     {
         DB::table('alumni')->insert([
             [
-                'nume' => 'Alexandru Achitei',
+                'nume' => 'Cristina Azoiței',
+                'generatie' => 'Toamnă 2021',
+                'anul_alumnizarii' => '2025',
+                'activitati' => '- FR tehnic: Prove it 2022
+- Accommodation: Summer 2022
+- HR Organisers: Summer 2023
+- Coordonator departament HR: Managment + Extra Resp 2023-2024
+- Coordonator: Recrutări Spring 2024
+- Experience: Prove it 2025
+- Coordonator: Aniversare Internă 2025
+- MDV: din vară 2022 până în toamnă 2024',
+                'testimonial' => null,
+                'acord_publicare' => true,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'nume' => 'Paul Cușmir',
+                'generatie' => 'Toamnă 2021',
+                'anul_alumnizarii' => '2025',
+                'activitati' => '- Mentor meme-uri: Autumn 2021 + Spring 2022
+- Activități: Gala 2021
+- HR Organisers: Summer 2022
+- MO: Summer 2023
+- Secretar PR: Managment + Extra Resp 2023-2024',
+                'testimonial' => null,
+                'acord_publicare' => true,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'nume' => 'Ana Rebecca Pintilii',
+                'generatie' => 'Toamnă 2021',
+                'anul_alumnizarii' => '2025',
+                'activitati' => '- Marketing: JobShop 2022
+- Coordonator: EBEC 2022
+- Activități și petreceri: Aniversare Internă 2023
+- Președinte: Managment + Extra Resp 2023-2024
+- Marketing: iBEC 2024
+- MDV: din vară 2022 pana în primăvară 2025',
+                'testimonial' => null,
+                'acord_publicare' => true,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'nume' => 'Alexandru Achiței',
                 'generatie' => 'Toamnă 2020',
                 'anul_alumnizarii' => '2024',
-                'activitati' => '- Activitati: Jobshop 2021
+                'activitati' => '- Activități: Jobshop 2021
 - Coordonator: JobShop 2022',
                 'testimonial' => null,
                 'acord_publicare' => true,
@@ -23,25 +69,25 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Catalin Butacu',
+                'nume' => 'Cătălin Butacu',
                 'generatie' => 'Toamnă 2020',
                 'anul_alumnizarii' => '2024',
                 'activitati' => '- IT: BTW 2021
-- IT:  Recrutari Autumn 2021
+- IT:  Recrutări Autumn 2021
 - Topicuri: Prove it 2022
 - MO: JobShop 2023
-- Coordonator departament IT: Managment + Extra Resp 2023',
+- Coordonator departament IT: Management + Extra Resp 2023',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Elisaveta Craciun',
+                'nume' => 'Elisaveta Crăciun',
                 'generatie' => 'Toamnă 2021',
                 'anul_alumnizarii' => '2024',
                 'activitati' => '- FR: JobShop 2022
-- Coordonator departament FR: Managment + Extra Resp 2022
+- Coordonator departament FR: Management + Extra Resp 2022
 - HR pax: LTSP Evaluation SIM 2023',
                 'testimonial' => null,
                 'acord_publicare' => true,
@@ -49,14 +95,14 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'George Moroșanu (Horhe)',
+                'nume' => 'George Moroșanu',
                 'generatie' => 'Toamnă 2019',
                 'anul_alumnizarii' => '2024',
-                'activitati' => '- Mentor Meme-uri: Managment + Extra Resp 2019
-- Secretar HR: Managment + Extra Resp 2019
-- Coordonator: Recrutari Autumn 2020
-- VP HR: Managment+ Extra Resp 2020
-- Coordonator: Recrutari Spring 2021
+                'activitati' => '- Mentor Meme-uri: Management + Extra Resp 2019
+- Secretar HR: Management + Extra Resp 2019
+- Coordonator: Recrutări Autumn 2020
+- VP HR: Management+ Extra Resp 2020
+- Coordonator: Recrutări Spring 2021
 - PR: Summer 2022
 - IT: EBEC 2022
 - Coordonator: Prove It 2023',
@@ -66,15 +112,15 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Ioana-Roxana Bacalie',
+                'nume' => 'Ioana-Roxana Băcălie',
                 'generatie' => 'Toamnă 2020',
                 'anul_alumnizarii' => '2024',
                 'activitati' => '- Interviuri, Training&BECaS: Recrutări Spring 2021
-- Topicuri: EBEC 2021- PR: Recrutari Spring 2022
-- Coordonator: Aniversare Interna 2022
-- VP HR: Managment + Extra Resp 2022
-- Coordonator: Recrutari Autumn 2022
-- Coordonator: Recrutari Spring 2023',
+- Topicuri: EBEC 2021- PR: Recrutări Spring 2022
+- Coordonator: Aniversare Internă 2022
+- VP HR: Management + Extra Resp 2022
+- Coordonator: Recrutări Autumn 2022
+- Coordonator: Recrutări Spring 2023',
                 'testimonial' => null,
                 'acord_publicare' => false,
                 'created_at' => Carbon::now(),
@@ -85,28 +131,28 @@ class AlumniSeeder extends Seeder
                 'generatie' => 'Primăvară 2021',
                 'anul_alumnizarii' => '2024',
                 'activitati' => '- PR: LEoE 2021
-- Coordonator WG Media: Managment + Extra Resp 2021
+- Coordonator WG Media: Management + Extra Resp 2021
 - Design: EBEC 2021
 - Marketing: Prove it 2023
-- Coordonator departament PR: Managment + Extra Resp 2023
-- IT: Recrutari Autumn 2023',
+- Coordonator departament PR: Management + Extra Resp 2023
+- IT: Recrutări Autumn 2023',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Mara Paduraru',
+                'nume' => 'Mara Păduraru',
                 'generatie' => 'Toamnă 2019',
                 'anul_alumnizarii' => '2024',
-                'activitati' => '- Secretar FR: Managment + Extra Resp 2019
-- PR: Aniversare Interna 2020
+                'activitati' => '- Secretar FR: Management + Extra Resp 2019
+- PR: Aniversare Internă 2020
 - FR: BTW 2020
-- Coordonator: Aniversare Interna 2021
+- Coordonator: Aniversare Internă 2021
 - Design: Prove it 2021 (first edition)
 - MO: Summer 2022
-- Presedinte: Managment + Extra Resp 2022
-- Mentor Marketing: Managment + Extra Resp 2023',
+- Președinte: Management + Extra Resp 2022
+- Mentor Marketing: Management + Extra Resp 2023',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
@@ -116,21 +162,21 @@ class AlumniSeeder extends Seeder
                 'nume' => 'Nicoleta Barcan',
                 'generatie' => 'Toamnă 2021',
                 'anul_alumnizarii' => '2024',
-                'activitati' => '- Secretar IT: Managment + Extra Resp 2021
+                'activitati' => '- Secretar IT: Management + Extra Resp 2021
 - IT: Prove it 2022
-- Secretar General: Managment + Extra Resp
-- Interviuri, Training & BECaS: Recrutari Autumn 2022',
+- Secretar General: Management + Extra Resp
+- Interviuri, Training & BECaS: Recrutări Autumn 2022',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Smaranda Cozminca',
+                'nume' => 'Smaranda Cozmîncă',
                 'generatie' => 'Toamnă 2020',
                 'anul_alumnizarii' => '2024',
                 'activitati' => '- FR premii: Prove it 2021 (first edition)
-- Trezorier: Managment + Extra Resp 2021
+- Trezorier: Management + Extra Resp 2021
 - TOPICURI: Prove it 2023
 - Coordonator: RoJAM 2023',
                 'testimonial' => null,
@@ -139,26 +185,28 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Alberto-Ionut Toscariu',
+                'nume' => 'Alberto-Ionuț Toscariu',
                 'generatie' => 'Toamnă 2019',
                 'anul_alumnizarii' => '2023',
                 'activitati' => '- IT:  BTW 2020
-- Coordonator WG BEST Events: Managment + Extra Resp 2021
+- Coordonator WG BEST Events: Management + Extra Resp 2021
 - Coordonator: LEoE 2021
-- FR: EBEC 2022',
+- FR: EBEC 2022
+- Best Mood: Autumn 2021
+- IT: BCC 2021',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Apavaloaiei Robert-Florin',
+                'nume' => 'Apăvaloaiei Robert-Florin',
                 'generatie' => 'Toamnă 2019',
                 'anul_alumnizarii' => '2023',
                 'activitati' => '- IT:  Summer 2020
 - Coordonator: BTW 2021
 - IT : EBEC 2020
-- Secretar: Managment + Extra Resp 2021',
+- Secretar: Management + Extra Resp 2021',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
@@ -171,21 +219,21 @@ class AlumniSeeder extends Seeder
                 'activitati' => '- PR: Recrutări Spring 2021
 - Design: Prove it 2022
 - Masa: Summer 2022
-- Coordonator: Aniversare Interna 2023',
+- Coordonator: Aniversare Internă 2023',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Gratiel-Ionut Gradinaru',
+                'nume' => 'Grațiel-Ionuț Grădinaru',
                 'generatie' => 'Toamnă 2017',
                 'anul_alumnizarii' => '2023',
                 'activitati' => '- FR Produse: EBEC RRM 2018 Local
 - HR: RBRC 2018
 - IT: JobShop 2019
-- Președinte: Managment + Extra Resp
-- Secretar: Managment + Extra Resp',
+- Președinte: Management + Extra Resp
+- Secretar: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
@@ -195,11 +243,11 @@ class AlumniSeeder extends Seeder
                 'nume' => 'Ioana Flavia Botezatu',
                 'generatie' => 'Toamnă 2019',
                 'anul_alumnizarii' => '2023',
-                'activitati' => '- Activitati: Jobshop 2020
+                'activitati' => '- Activități: Jobshop 2020
 - Podcast: Jobshop 2020
 - HR: Prove it 2021 (first edition)
-- Coordonator HR: Managment + Extra Resp 2021
-- Coordonator: Recrutari Spring 2022',
+- Coordonator HR: Management + Extra Resp 2021
+- Coordonator: Recrutări Spring 2022',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
@@ -211,26 +259,26 @@ class AlumniSeeder extends Seeder
                 'anul_alumnizarii' => '2023',
                 'activitati' => '- IT: Jobshop 2021
 - BEST Talk: BTW 2020
-- IT: Recrutari Autumn 2020',
+- IT: Recrutări Autumn 2020',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Rares Craciun',
+                'nume' => 'Rareș Crăciun',
                 'generatie' => 'Toamnă 2019',
                 'anul_alumnizarii' => '2023',
                 'activitati' => '- HR Pax: Summer 2020
-- Interviuri, Training&BECaS: Recrutari Autumn 2020
-- FR cpy: Prove it 2021',
+- Interviuri, Training&BECaS: Recrutări Autumn 2020
+- FR companii: Prove it 2021',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Antal Vladut',
+                'nume' => 'Antal Vladuț',
                 'generatie' => 'Toamnă 2019',
                 'anul_alumnizarii' => '2023',
                 'activitati' => '- FR produse: JobShop 2020
@@ -257,7 +305,7 @@ class AlumniSeeder extends Seeder
                 'generatie' => 'Toamnă 2018',
                 'anul_alumnizarii' => '2022',
                 'activitati' => '- PR: Summer 2019
-- Coordonator WG Best Events: Managment + Extra Resp
+- Coordonator WG Best Events: Management + Extra Resp
 - Coordonator: Gala 2021
 - PR: EBEC 2020',
                 'testimonial' => null,
@@ -270,9 +318,9 @@ class AlumniSeeder extends Seeder
                 'generatie' => 'Toamnă 2016',
                 'anul_alumnizarii' => '2022',
                 'activitati' => '- EAD: Summer 2018
-- Interviu,Training&BECAS: Recrutari 2018 Autumn
+- Interviu,Training&BECAS: Recrutări 2018 Autumn
 - FR companii: JobShop 2019
-- Președinte: Managment + Extra Resp
+- Președinte: Management + Extra Resp
 - FR: EBEC 2021',
                 'testimonial' => null,
                 'acord_publicare' => false,
@@ -280,14 +328,14 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Andrei Armasu',
+                'nume' => 'Andrei Armașu',
                 'generatie' => 'Primăvară 2019',
                 'anul_alumnizarii' => '2022',
                 'activitati' => '- Activități: Motivational Weekend 2019
-- Interviu,Training&BECAS: Recrutari 2019 Autumn
+- Interviu,Training&BECAS: Recrutări 2019 Autumn
 - Promovare: Jobshop 2020
 - Podcast: Jobshop 2020
-- Coordonator: Recrutari Autumn 2021
+- Coordonator: Recrutări Autumn 2021
 - HR: Jobshop 2021',
                 'testimonial' => null,
                 'acord_publicare' => true,
@@ -295,7 +343,7 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Brinzila Irina',
+                'nume' => 'Brânzilă Irina',
                 'generatie' => 'Toamnă 2017',
                 'anul_alumnizarii' => '2022',
                 'activitati' => '- Media: BTW 2018
@@ -306,13 +354,13 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Catalin Sfaiter',
+                'nume' => 'Cătălin Sfaițer',
                 'generatie' => 'Toamnă 2018',
                 'anul_alumnizarii' => '2022',
-                'activitati' => '- Secretar IT:  Managment + Extra Resp
+                'activitati' => '- Secretar IT:  Management + Extra Resp
 - HR Pax: Summer 2019
 - Marketing: Jobshop 2020
-- Președinte: Managment + Extra Resp',
+- Președinte: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => false,
                 'created_at' => Carbon::now(),
@@ -327,8 +375,8 @@ class AlumniSeeder extends Seeder
 - Cariere de success&Cocktail Party: Jobshop 2020
 - Cariere de success: JobShop 2020
 - Coordonator: EBEC 2021
-- Markeding: EBEC 2020
-- Responsabil Digital Marketing: Managment + Extra Resp',
+- Marketing: EBEC 2020
+- Responsabil Digital Marketing: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
@@ -338,17 +386,17 @@ class AlumniSeeder extends Seeder
                 'nume' => 'Petru Belibou',
                 'generatie' => 'Toamnă 2018',
                 'anul_alumnizarii' => '2022',
-                'activitati' => '- Logisitcă: Aniversare Interna 2019
-- VP HR: Managment + Extra Resp
-- Coordonator: Recrutari  Autumn
-- Coordonator: Recrutari  Spring',
+                'activitati' => '- Logistică: Aniversare Internă 2019
+- VP HR: Management + Extra Resp
+- Coordonator: Recrutări  Autumn
+- Coordonator: Recrutări  Spring',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Petruta Bruma',
+                'nume' => 'Petruța Brumă',
                 'generatie' => 'Toamnă 2017',
                 'anul_alumnizarii' => '2022',
                 'activitati' => '- IT&Logistică: Summer 2019
@@ -361,13 +409,13 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Razvan Fratiman',
+                'nume' => 'Răzvan Fratiman',
                 'generatie' => 'Primăvară 2019',
                 'anul_alumnizarii' => '2022',
                 'activitati' => '- Logistică: RoJAM 2019
 - PR: BTW 2020
 - MKT: EBEC 2021
-- Coordonator WG Media: Managment + Extra Resp',
+- Coordonator WG Media: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
@@ -393,14 +441,14 @@ class AlumniSeeder extends Seeder
                 'activitati' => '- Logistică: BeKnown 2019
 - Design: EBEC 2019
 - Media: Jobshop 2020
-- Coordonator WG Best Events: Managment + Extra Resp',
+- Coordonator WG Best Events: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Andreea Otilia Farcas',
+                'nume' => 'Andreea Otilia Farcaș',
                 'generatie' => 'Toamnă 2015',
                 'anul_alumnizarii' => '2021',
                 'activitati' => '- Coordonator: EBEC RRM 2018 Regional',
@@ -413,8 +461,8 @@ class AlumniSeeder extends Seeder
                 'nume' => 'Gaman Petronela',
                 'generatie' => 'Toamnă 2017',
                 'anul_alumnizarii' => '2021',
-                'activitati' => '- IT: Gala Aniversara
-- Interviu,Training&BECAS: Recrutari 2018 Spring
+                'activitati' => '- IT: Gala Aniversară
+- Interviu,Training&BECAS: Recrutări 2018 Spring
 - Design EBEC 2018
 - FR: BTW 2019
 - HR: Jobshop 2020',
@@ -428,15 +476,15 @@ class AlumniSeeder extends Seeder
                 'generatie' => 'Toamnă 2017',
                 'anul_alumnizarii' => '2021',
                 'activitati' => '- Promovare: JobShop 2019
-- IT: Recrutari 2018 Autumn
-- Secretar FR: Managment + Extra Resp',
+- IT: Recrutări 2018 Autumn
+- Secretar FR: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Marius Bruma',
+                'nume' => 'Marius Brumă',
                 'generatie' => 'Toamnă 2017',
                 'anul_alumnizarii' => '2021',
                 'activitati' => '- ITC: BTW 2018
@@ -463,14 +511,14 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Ana Maria Puscasu',
+                'nume' => 'Ana Maria Pușcașu',
                 'generatie' => 'Toamnă 2016',
                 'anul_alumnizarii' => '2020',
                 'activitati' => '- FR: RM 2017
 - PR: BTW 2017
 - FR: EBEC 2017
 - FR companii: 2018
-- Trezorier: Managment + Extra Resp',
+- Trezorier: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
@@ -480,9 +528,9 @@ class AlumniSeeder extends Seeder
                 'nume' => 'Ana-Maria Spiridon',
                 'generatie' => 'Primăvară 2017',
                 'anul_alumnizarii' => '2020',
-                'activitati' => '- Logistica: Summer 2017
-- Coordonator WG Grants: Managment + Extra Resp
-- PR: Recrutari Autumn 2017
+                'activitati' => '- Logistică: Summer 2017
+- Coordonator WG Grants: Management + Extra Resp
+- PR: Recrutări Autumn 2017
 - FR: EBEC RRM 2018 Regional',
                 'testimonial' => null,
                 'acord_publicare' => true,
@@ -514,13 +562,13 @@ class AlumniSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Grigorut Narcisa',
+                'nume' => 'Grigoruț Narcisa',
                 'generatie' => 'Toamnă 2017',
                 'anul_alumnizarii' => '2020',
                 'activitati' => '- HR PAX: EBEC RRM 2018 Local
-- VP HR: Managment + Extra Resp
-- Coordonator: Recrutari 2018 Autumn
-- Coordonator: Recrutari 2019 Spring',
+- VP HR: Management + Extra Resp
+- Coordonator: Recrutări 2018 Autumn
+- Coordonator: Recrutări 2019 Spring',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
@@ -530,19 +578,19 @@ class AlumniSeeder extends Seeder
                 'nume' => 'Ilinca Turcu',
                 'generatie' => 'Toamnă 2017',
                 'anul_alumnizarii' => '2020',
-                'activitati' => '- PR: Gala Aniversara
+                'activitati' => '- PR: Gala Aniversară
 - PR: Summer 2018
-- VP PR: Managment + Extra Resp',
+- VP PR: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Ionut Chinez',
+                'nume' => 'Ionuț Chinez',
                 'generatie' => 'Primăvară 2017',
                 'anul_alumnizarii' => '2020',
-                'activitati' => '- Secretar general: Managment + Extra Resp',
+                'activitati' => '- Secretar general: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
@@ -553,7 +601,7 @@ class AlumniSeeder extends Seeder
                 'generatie' => 'Primăvară 2017',
                 'anul_alumnizarii' => '2020',
                 'activitati' => '- MO Local:  EBEC RRM 2018 Local
-- Coordonator WG BEST Events: Managment + Extra Resp',
+- Coordonator WG BEST Events: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
@@ -602,17 +650,17 @@ class AlumniSeeder extends Seeder
                 'activitati' => '- DO: BTW 2017
 - Coordonator+ FR Cpy: BTW 2018
 - Marketing: EBEC 2017
-- Presedinte: Managment + Extra Resp',
+- Președinte: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => false,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'nume' => 'Catalin Crainiceanu',
+                'nume' => 'Cătălin Crăiniceanu',
                 'generatie' => 'Primăvară 2016',
                 'anul_alumnizarii' => '2020',
-                'activitati' => '- Mentor Design: Managment + Extra Resp',
+                'activitati' => '- Mentor Design: Management + Extra Resp',
                 'testimonial' => null,
                 'acord_publicare' => true,
                 'created_at' => Carbon::now(),
